@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike-React</title>
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- fontawesome link -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- bootstrap link -->
@@ -12,9 +15,59 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Header Section Start -->
+    <header id="header">
+        <div class="container">
+            <!-- Navbar Section Start -->
+            <div class="menubar pt-4">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <div class="nav-responsive">
+                        <a class="navbar-brand" href="#"><img class="logo-img" src="images/Logo.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                      </div>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto pull-right">
+                          <li class="nav-item ms-4">
+                            <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item ms-4">
+                            <a class="nav-link fs-5" href="#">product</a>
+                          </li>
+                          <li class="nav-item ms-4">
+                            <a class="nav-link fs-5" href="#">About us</a>
+                          </li>
+                          <li class="nav-item ms-4">
+                            <a class="nav-link fs-5" href="#">Contact us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <!-- Navbar Section End -->
 
-
+            <!-- Banner Section Start -->
+            <section id="banner">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6">
+                        <img class="banner-img" src="images/banner.png" alt="banner">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="banner-content">
+                            <h1><span>Nike React</span> Infinity Run 2</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <a href="#"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner Section End -->
+        </div>
+    </header>
+    <!-- Header Section End -->
 
     <!-- js link here -->
     <script src="js/bootstrap.bundle.min.js"></script>
