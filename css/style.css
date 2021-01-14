@@ -1,3 +1,5 @@
+/*============ Commom CSS Start ============*/
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,11 @@ h6,
 p {
   font-family: "Roboto", sans-serif;
 }
+
+/*============ Commom CSS End ============*/
+
+/*============ Navbar CSS Start ============*/
+
 nav a {
   font-weight: 600;
   color: #3c3c3c;
@@ -31,11 +38,15 @@ nav a {
 .logo-img {
   width: 80%;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .nav-responsive {
     display: flex;
   }
 }
+
+/*============ Navbar CSS End ============*/
+
+/*============ Banner CSS Start ============*/
 
 #banner {
   padding-bottom: 150px;
@@ -63,20 +74,256 @@ nav a {
   line-height: 26px;
   padding-bottom: 25px;
 }
-#banner .banner-content a {
-  font-size: 24px;
+.custom-btn {
+  font-size: 16px;
   font-weight: 500;
   padding: 15px 30px;
   background-image: linear-gradient(180deg, #3d4ff3, #3543bc);
   border-radius: 10px;
   color: #fff;
 }
-#banner .banner-content a i {
+.custom-btn i {
   margin-right: 5px;
 }
+.custom-btn:hover {
+  color: #fff;
+}
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #banner .row {
     flex-direction: column-reverse;
   }
 }
+
+/*============ Banner CSS End ============*/
+
+/*============ Casual & Formal Shoes CSS Start ============*/
+
+.tittle {
+  padding: 50px 0;
+}
+
+.tittle h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #363958;
+}
+.card-bg {
+  border: 0;
+  border-radius: 1.5rem;
+}
+.card-top {
+  margin: 18px;
+  background: #f1f1f1;
+  border-radius: 1.5rem;
+}
+.card-top img {
+  width: 90%;
+}
+.card-bottom {
+  margin-top: -15px;
+}
+.card-bottom h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+  padding-bottom: 8px;
+}
+.card-bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3e3e3e;
+  line-height: 26px;
+  padding-right: 35px;
+}
+.card-pricing h4 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fa804c;
+  padding-top: 20px;
+}
+
+#formal-shoes {
+  margin-bottom: 150px;
+}
+
+.formal-card-top {
+  margin: 18px;
+}
+
+/*============ Casual & Formal Shoes CSS End ============*/
+
+/*============ Contact CSS Start ============*/
+
+.contact-main {
+  margin-bottom: 50px;
+}
+
+.main-item {
+  border-radius: 1.5rem;
+}
+.icon {
+  padding: 20px;
+}
+.icon img {
+  width: 60%;
+}
+.content {
+  margin-left: -40px;
+}
+.content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #363958;
+  padding-right: 50px;
+}
+.item-shadow {
+  box-shadow: 10px 5px 50px rgb(228, 228, 228);
+}
+.second-item {
+  border-radius: 1.5rem;
+}
+.third-item {
+  border-radius: 1.5rem;
+}
+.right-side img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #contact .row {
+    flex-direction: column-reverse;
+  }
+  .main-item-content {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+    text-align: center;
+  }
+  .main-item-content p {
+    padding-right: 0;
+    width: 290px;
+  }
+  .icon img {
+    width: 40%;
+  }
+  .main-item {
+    margin-top: 30px;
+  }
+}
+
+/*============ Contact CSS End ============*/
+
+/*============ Brands CSS Start ============*/
+
+#brand {
+  background-color: rgb(206, 206, 206);
+  padding: 25px 0;
+}
+.brand-img {
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .brand-responsive .brand-col {
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*============ Brands CSS End ============*/
+
+/*============ Footer CSS Start ============*/
+
+#footer {
+  background-color: rgb(46, 46, 46);
+}
+.footer-left {
+  margin-left: 50px;
+}
+.footer-left h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.footer-links a {
+  display: block;
+  color: #fff;
+  margin: 15px 0;
+  transition: all linear 0.3s;
+}
+.footer-links a:hover {
+  color: rgb(194, 194, 194);
+}
+.footer-right {
+  margin-right: 50px;
+  text-align: right;
+}
+.footer-right h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.social-links {
+  margin-top: 30px;
+}
+.social-links a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(68, 68, 68);
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+  transition: all linear 0.3s;
+}
+.social-links a i {
+  font-size: 20px;
+  line-height: 35px;
+}
+.social-links a:hover {
+  background-color: rgb(218, 218, 218);
+  color: rgb(68, 68, 68);
+}
+
+@media (max-width: 768px) {
+  .footer-responsive {
+    flex-direction: column;
+  }
+  .footer-left {
+    margin-left: 0;
+  }
+  .footer-left h4 {
+    text-align: center;
+  }
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links-left {
+    width: 100%;
+  }
+  .footer-links-middle {
+    width: 100%;
+  }
+  .footer-links-right {
+    width: 100%;
+  }
+  .footer-right {
+    margin-top: 50px;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+/*============ Footer CSS End ============*/
